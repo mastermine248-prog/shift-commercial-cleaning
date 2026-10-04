@@ -24,3 +24,41 @@
 @media(max-width:560px){.quote-card{width:280px;min-height:210px;padding:18px}.quote-card p{font-size:15px}.marquee-tools{font-size:8px}.quote-track{animation-duration:42s}}
 @media(prefers-reduced-motion:reduce){.quote-track{animation:none!important;transform:none}.quote-window{overflow-x:auto}.quote-set[aria-hidden="true"],.marquee-control{display:none}}
 
+/* Design-first refinement: legible site records and a clearer service rhythm. */
+.section{padding-block:clamp(70px,6.5vw,104px)}
+.section-index,.hero-overline{font-size:11px;letter-spacing:.12em}
+.nav{font-size:13px}
+.nav-cta,.arrow-button{font-size:12px}
+.hero-lower p{font-size:17px;max-width:410px}
+.hero-proof{position:absolute;z-index:3;right:clamp(30px,5vw,90px);bottom:82px;width:272px;background:rgba(16,32,55,.92);color:#fff;padding:20px 22px 16px;border-top:3px solid #82aaff;box-shadow:0 22px 60px rgba(3,12,26,.28);backdrop-filter:blur(10px)}
+.hero-proof>span{display:block;color:#b8cfff;font-size:9px;font-weight:700;letter-spacing:.13em;margin-bottom:12px}
+.hero-proof>div{display:flex;align-items:center;gap:14px;border-top:1px solid rgba(255,255,255,.16);padding:9px 0;font-size:12px;font-weight:600}
+.hero-proof b{color:#8fb2ff;font-size:10px;letter-spacing:.08em}
+.hero-side{bottom:30px}
+.manifesto-copy p,.section-heading>p:last-child,.work-heading>p:last-child,.approach-intro>p:not(.section-index){font-size:15px}
+.tile-top{font-size:10px}
+.tile-bottom p{font-size:13px;line-height:1.55}
+.service-tile{border-radius:4px}
+.approach-list h3{font-size:24px}
+.approach-list p{font-size:14px}
+.record-grid span{font-size:10px}
+.scene-menu button{font-size:12px}
+.scene-note{font-size:10px}
+.pricing-heading>p{font-size:14px}
+.plan-list article{padding-block:30px}
+.plan-list article.featured{border-left:4px solid var(--blue);box-shadow:0 10px 30px rgba(23,43,77,.06)}
+.plan-id>span,.plan-price small{font-size:11px}
+.plan-id h3{font-size:25px}
+.plan-id p,.plan-list li{font-size:14px;line-height:1.55}
+.plan-price strong{font-size:40px}
+.pricing-note,.review-disclaimer{font-size:12px}
+.faq summary{font-size:16px}
+.faq details p{font-size:14px}
+.contact-intro>p:not(.section-index){font-size:15px}
+.quote-form label,.quote-form legend{font-size:12px}
+.quote-form input:not([type=checkbox]):not([type=file]),.quote-form select,.quote-form textarea{font-size:14px;padding:12px}
+.submit-button{font-size:12px}
+@media(max-width:1000px){.hero-proof{right:30px;bottom:78px;width:235px;padding:16px}}
+@media(max-width:780px){.hero-proof{display:none}.section{padding-block:70px}}
+@media(max-width:560px){.hero-lower p{font-size:14px}.tile-bottom p{font-size:12px}.plan-list article{padding-block:22px}.plan-id h3{font-size:22px}.plan-price strong{font-size:34px}.quote-form label,.quote-form legend{font-size:12px}.signal-bar{overflow:visible}.signal-bar .layout{width:min(100% - 36px,1320px);display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;padding:16px 0}.signal-bar span{white-space:normal;font-size:9px;line-height:1.35}.scene-menu{scrollbar-width:none}.scene-menu::-webkit-scrollbar{display:none}}
+
